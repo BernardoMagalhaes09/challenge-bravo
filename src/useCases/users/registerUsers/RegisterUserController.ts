@@ -4,7 +4,7 @@ import { RegisterUsersUseCase } from './RegisterUsersUseCase'
 class RegisterUserController {
 
     async handle(request: Request, response: Response) {
-        const {email, password} = request. body
+        const {email, password} = request.body
 
         const registerUsersUseCase = new RegisterUsersUseCase()
 

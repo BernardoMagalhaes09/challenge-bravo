@@ -29,6 +29,7 @@ class RegisterUsersUseCase {
                 password: hash
             },
             select: {
+                id: true,
                 email: true
             }
         })
