@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/BernardoMagalhaes09/challenge-bravo#readme",
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.13",
     "prisma": "^4.2.1",
     "ts-node-dev": "^2.0.0",
